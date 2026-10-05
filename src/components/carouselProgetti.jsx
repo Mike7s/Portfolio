@@ -8,7 +8,7 @@ function Progetti() {
       id="progetti"
     >
       <motion.div
-        className="grid place-items-center text-center w-full"
+        className="grid grid-cols-1 place-items-center text-center w-full min-w-0"
         initial={{ y: 100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, ease: "easeOut" }}

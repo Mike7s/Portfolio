@@ -47,7 +47,7 @@ function ProgettiCarousel() {
   ];
 
   return (
-    <div className="w-full max-w-xl mx-auto py-8 sm:py-10 px-2 sm:px-0">
+    <div className="w-full min-w-0 max-w-xl mx-auto py-8 sm:py-10 px-2 sm:px-0">
       <Carousel className="w-full">
         <CarouselContent>
           {progetti.map((p, index) => (
