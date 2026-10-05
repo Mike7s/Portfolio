@@ -1,4 +1,4 @@
-import ProgettiCarousel from "./carouselProgetti";
+import ProgettiCarousel from "./Progetti";
 import { motion } from "framer-motion";
 
 function Progetti() {
